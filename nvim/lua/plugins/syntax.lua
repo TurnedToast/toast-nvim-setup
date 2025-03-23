@@ -14,5 +14,10 @@ return {
                 indent = { enable = true },  
             })
         end
+    },
+    {
+        "pmizio/typescript-tools.nvim",
+        dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+        opts = {},
     }
 }

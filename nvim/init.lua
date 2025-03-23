@@ -1,8 +1,9 @@
 vim.g.mapleader = " "
+vim.opt.background = "light" -- or "light"
 require("config.lazy")
 
 local k = vim.keymap
-k.set('n', '<C-h>', '<C-w>k', {silent = true })
+k.set('n', '<C-h>', '<C-w>h', {silent = true })
 k.set('n', '<C-j>', '<C-w>j', {silent = true })
 k.set('n', '<C-l>', '<C-w>l', {silent = true })
 k.set('n', '<C-k>', '<C-w>k', {silent = true })

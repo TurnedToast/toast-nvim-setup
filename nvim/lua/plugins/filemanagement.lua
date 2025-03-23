@@ -6,7 +6,7 @@ return {
         dependencies = { { "echasnovski/mini.icons", opts = {} } },
         opts = {
             options = { use_as_default_explorer = true },
-            window = { preview = true }
+            windows = { preview = true }
         }
     },
 }
