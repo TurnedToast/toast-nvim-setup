@@ -1,6 +1,7 @@
 vim.g.mapleader = " "
 vim.opt.background = "light" -- or "light"
 require("config.lazy")
+require'lspconfig'.angularls.setup{}
 
 local k = vim.keymap
 k.set('n', '<C-h>', '<C-w>h', {silent = true })
