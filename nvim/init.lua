@@ -2,6 +2,8 @@ vim.g.mapleader = " "
 require("config.lazy")
 vim.cmd[[colorscheme tokyonight-moon]]
 
+require'lspconfig'.rust_analyzer.setup{}
+
 local k = vim.keymap
 k.set('n', '<C-h>', '<C-w>k', {silent = true })
 k.set('n', '<C-j>', '<C-w>j', {silent = true })
@@ -24,7 +26,6 @@ k.set('n', '<leader>c', function()
         vim.cmd[[colorscheme tokyonight-moon]]
     end
 end)
-        
 
 local o = vim.opt
 o.compatible = false

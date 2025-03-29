@@ -3,3 +3,4 @@ ripgrep
 gcc
 unzip
 npm install -g @angular/language-server
+install rust analyzer
