@@ -5,7 +5,7 @@ vim.cmd[[colorscheme tokyonight-moon]]
 require'lspconfig'.rust_analyzer.setup{}
 
 local k = vim.keymap
-k.set('n', '<C-h>', '<C-w>k', {silent = true })
+k.set('n', '<C-h>', '<C-w>h', {silent = true })
 k.set('n', '<C-j>', '<C-w>j', {silent = true })
 k.set('n', '<C-l>', '<C-w>l', {silent = true })
 k.set('n', '<C-k>', '<C-w>k', {silent = true })
