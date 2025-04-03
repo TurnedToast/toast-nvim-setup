@@ -8,7 +8,7 @@ return {
 
             configs.setup({
                 ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html",
-                    "typescript", "tsx", "scss", "css", "python", "powershell", "java", "c_sharp", "bash"},
+                    "typescript", "tsx", "scss", "css", "python", "powershell", "java", "c_sharp", "bash", "rust"},
                 sync_install = false,
                 highlight = { enable = true },
                 indent = { enable = true },  
